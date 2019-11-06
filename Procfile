@@ -1,1 +1,1 @@
-web: gunicorn polly/polly.wsgi 
+web: gunicorn polly.wsgi --log-file -
